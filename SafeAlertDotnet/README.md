@@ -16,8 +16,8 @@
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/leomotalima/SafeAlertDotNet.git
-cd SafeAlertDotNet
+git clone https://github.com/leomotalima/SafeAlertRepo.git
+cd SafeAlertRepo/SafeAlertDotNet
 ```
 
 2. Restaure os pacotes:
@@ -30,24 +30,31 @@ dotnet restore
 
 ```json
 "ConnectionStrings": {
-  "OracleDb": "User Id=usuario;Password=senha;Data Source=oracle.fiap.com.br:1521/orcl"
+  "OracleDb": "User Id=<usuario>;Password=<senha>;Data Source=oracle.fiap.com.br:1521/orcl"
 }
 ```
 
-4. Crie o banco com EF Core:
+4. Compile o projeto:
+
+```bash
+dotnet build
+```
+
+
+5. Crie o banco com EF Core:
 
 ```bash
 dotnet ef migrations add Inicial
 dotnet ef database update
 ```
 
-5. Rode o projeto:
+6. Rode o projeto:
 
 ```bash
 dotnet run
 ```
 
-6. Acesse a documentação Swagger:
+7. Acesse a documentação Swagger:
 
 ```txt
 http://localhost:5241/swagger
@@ -106,10 +113,10 @@ http://localhost:5241/swagger
 
 ## 🎓 Disciplinas Envolvidas
 
-| Disciplina        | Aplicação                                                                 |
-|-------------------|---------------------------------------------------------------------------|
-| Java Advanced     | Interface web integrada à API REST                                        |
-| Banco de Dados    | Persistência com Oracle                                                   |
+| Disciplina                                       | Aplicação                                                |
+| ------------------------------------------------ | -------------------------------------------------------- |
+| Mobile Application Development                   | Desenvolvimento da interface móvel e consumo da API REST |
+| Mastering Relational and Non-Relational Database | Persistência de dados utilizando Oracle Database         |
 
 ---
 

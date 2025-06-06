@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using SafeAlertApi.Data; // Importa seu DbContext
+using SafeAlertApi.Data;
 using SafeAlertApi.Models;
 
 namespace SafeAlertApi.Data

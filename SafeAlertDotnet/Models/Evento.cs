@@ -7,7 +7,7 @@ public class Evento
 {
     public int Id { get; set; }
     
-    [MaxLength(4000)] // Ou menos, conforme necessidade
+    [MaxLength(4000)] 
     public string? Tipo { get; set; }
 
     [MaxLength(4000)]

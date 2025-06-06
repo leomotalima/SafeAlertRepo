@@ -552,10 +552,10 @@ app.MapDelete("/ocorrencias/{id}", async (int id, AppDbContext db) =>
 #endregion
 
 app.MapGet("/", () => "API SafeAlert está ativa!")
-   .WithMetadata(new
-   {
-       Summary = "Endpoint raiz",
-       Description = "Verifica se a API está ativa."
-   });
+    .WithMetadata(new
+    {
+        Summary = "Endpoint raiz",
+        Description = "Verifica se a API está ativa."
+    });
 
 app.Run();
