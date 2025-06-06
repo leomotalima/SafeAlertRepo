@@ -1,0 +1,44 @@
+Usuários
+{
+  "id": 1,
+  "nome": "João Silva",
+  "email": "joao.silva@email.com",
+  "senha": "senhaSegura123",
+  "endereco": "Rua das Flores, 123",
+  "tipo_usuario": "Administrador",
+  "data_cadastro": "2024-01-15T10:30:00"
+}
+
+Localidades
+{
+  "id": 10,
+  "bairro": "Centro",
+  "zona": "Zona Sul"
+}
+
+Eventos
+{
+  "id": 5,
+  "tipo": "Furto",
+  "descricao": "Furto registrado próximo ao estacionamento"
+}
+
+Postagens
+{
+  "id": 25,
+  "usuario_id": 1,
+  "evento_id": 5,
+  "localidade_id": 10,
+  "titulo": "Alerta de furto",
+  "descricao": "Moto furtada na rua 123",
+  "imagem_url": "https://exemplo.com/imagens/furto1.jpg",
+  "data_criacao": "2024-02-20T14:45:00"
+}
+
+Ocorrências
+{
+  "id": 100,
+  "postagem_id": 25,
+  "status": "Em andamento",
+  "data_ocorrencia": "2024-02-20T15:00:00"
+}
