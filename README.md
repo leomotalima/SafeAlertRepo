@@ -16,8 +16,8 @@
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/leomotalima/SafeAlertDotNet.git
-cd SafeAlertDotNet
+git clone https://github.com/leomotalima/SafeAlertRepo.git
+cd SafeAlertRepo/SafeAlertDotNet
 ```
 
 2. Restaure os pacotes:
