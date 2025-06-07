@@ -11,7 +11,7 @@
 
 ---
 
-## 📦 Instalação
+## 📦 Como rodar a API
 
 1. Clone o repositório:
 
@@ -30,7 +30,7 @@ dotnet restore
 
 ```json
 "ConnectionStrings": {
-  "OracleDb": "User Id=usuario;Password=senha;Data Source=oracle.fiap.com.br:1521/orcl"
+  "OracleDb": "User Id=<seu_usuario>;Password=<sua_senha>;Data Source=oracle.fiap.com.br:1521/orcl"
 }
 ```
 
@@ -125,7 +125,7 @@ http://localhost:5241/swagger
 ## 🎥 Demonstrações em Vídeo
 
 - ✅ **Demonstração da Solução Completa:**  
-  https://youtu.be/SbV9s94TQM8
+  https://youtu.be/3UMKNceYIJk
 
 - 🎤 **Pitch do Projeto:**  
   https://www.youtube.com/watch?v=YEXlSVQTqaA
