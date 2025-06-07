@@ -100,16 +100,6 @@ http://localhost:5241/swagger
 - Entity Framework Core
 - Oracle Database
 - Swagger (OpenAPI)
-- Java Web (frontend)
-
----
-
-## 🎓 Disciplinas Envolvidas
-
-| Disciplina        | Aplicação                                                                 |
-|-------------------|---------------------------------------------------------------------------|
-| Java Advanced     | Interface web integrada à API REST                                        |
-| Banco de Dados    | Persistência com Oracle                                                   |
 
 ---
 
